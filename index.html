@@ -1,0 +1,65 @@
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+<title>registeration page</title>
+    <style type="text/css">
+        fieldset{
+            background-color: azure;
+            
+        }
+        input, lable{
+           margin: 1%;
+            width:250px;
+            height: 6%;
+        }
+        input[type="date"]
+        {
+            width: 130px;
+        }
+        input[type="submit"],input[type="reset"]
+        {
+            width: 90px;
+            border: none;
+            color: aliceblue;
+           margin-left: 3%;
+        }
+        input[type="submit"]
+        {
+            background-color: green;10px;
+            margin-left: 
+        }
+        input[type="reset"]
+        {
+            background-color: crimson;
+        }
+        form{
+            text-align: left;
+            
+        }
+   input[type="submit"]:hover
+        {
+            opacity: 0.7;
+        }
+        input[type="reset"]:hover
+        {
+            opacity: 0.7;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="reg">
+        <fieldset >
+            <legend>Registeration</legend>
+        <form action="reg.php" method="post">
+        <label>name: </label><input type="text" name="uname" placeholder="enter your name" required><br>
+        <label>email: </label><input type="email" name="mail" placeholder="enter e-mail" required><br>
+        <label>password: </label><input required type="ps" name="ps" placeholder="enter password"><br>
+        <label>D.O.B: </label><input type="date" required name="dof"><br>
+        <input type="submit">
+        <input type="reset">
+        </form>
+        </fieldset>
+        </div>
+    </body>
+</html>
